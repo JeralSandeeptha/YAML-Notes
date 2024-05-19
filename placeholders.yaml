@@ -1,0 +1,3 @@
+# These are placeholders
+username: {{ .Value.app.name }}
+password: {{ .Value.app.password }}

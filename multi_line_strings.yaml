@@ -1,0 +1,11 @@
+# multi-line string
+sentence_1: |
+  This is a sample yaml file. 
+  This can be used to configure many kind of tools related to devops. 
+  Devops is a trending path to study and work.
+
+# this is like and multi line but this is a single-line string
+sentence_2: >
+  This is a sample yaml file. 
+  This can be used to configure many kind of tools related to devops. 
+  Devops is a trending path to study and work.

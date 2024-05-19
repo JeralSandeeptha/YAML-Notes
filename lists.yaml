@@ -1,0 +1,44 @@
+# This is an object list
+old_services:
+  - post_service:
+      architecture: micro-service
+      version: 1.0.0
+      port: 8080
+  - user_service:
+      architecture: micro-service
+      version: 1.0.0
+      port: 8081
+  - admin_service:
+      architecture: micro-service
+      version: 1.0.0
+      port: 8082
+
+# This is a list
+new_services:
+  - name: post
+    architecture: micro-service
+    version: 1.0.0
+    port: 8080
+  - name: user
+    architecture: micro-service
+    version: 1.0.0
+    port: 8081
+  - name: admin
+    architecture: micro-service
+    version: 1.0.0
+    port: 8082
+
+# This is also a list with userable
+changes_services:
+  architecture: micro-service
+  version: 1.0.0
+  port: 
+    - 8080
+    - 8081
+    - 8082
+
+# This is also a list with userable
+changes_services_differenties:
+  architecture: micro-service
+  version: 1.0.0
+  port: [ 8080, 8081, 8082 ]

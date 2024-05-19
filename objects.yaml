@@ -1,0 +1,11 @@
+# This is an object
+post_service:
+  architecture: micro-service
+  version: 1.0.0
+  port: 8080
+
+# This is also an object
+user_service:
+  architecture: micro-service
+  version: 1.0.0
+  port: 8081

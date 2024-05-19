@@ -1,0 +1,11 @@
+# this is a boolean value
+is-deployed_0: true
+is-deployed_1: false
+
+# this is a boolean value
+is-rated_0: yes
+is-rated_1: no
+
+# this is a boolean value
+is-pushed_0: on
+is-pushed_1: off

@@ -1,0 +1,6 @@
+# These are env variables
+path: $PATH
+
+env: 
+  username: $USERNAME
+  password: $PASSWORD
